@@ -10,10 +10,8 @@ sequenceSum(-3, 2); // (-3) + (-2) + (-1) + 0 + 1 + 2 = -3
 */
 
 export const sequenceSum = (begin, end) => {
-    // BEGIN (write your solution here)
     if (begin > end) return NaN;
     if (begin === end) return begin;
     return begin + sequenceSum(begin + 1, end);
-    // END
   };
   
