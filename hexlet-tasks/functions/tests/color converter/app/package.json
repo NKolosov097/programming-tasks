@@ -1,0 +1,10 @@
+{
+    "type": "module",
+    "scripts": {
+      "test": "jest --colors"
+    },
+    "dependencies": {
+      "lodash": "*"
+    }
+  }
+  
